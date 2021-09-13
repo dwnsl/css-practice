@@ -1,0 +1,120 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  body {
+    color: #FF0000;
+  }
+
+
+  body {
+    color: #414141;    /* Dark gray */
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;                              /* Add this */
+  }
+
+  h1, p {
+    background-color: #DDE0E3;    /* Light gray */
+  }
+
+  h1 {
+    padding: 50px;
+  }
+
+  div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+  }
+
+  p {
+    padding: 20px 0 20px 10px;
+    margin-bottom: 50px;          /* Add this */
+  }
+
+  .page {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;    /* Yellow */
+  }
+
+  .call-to-action2 {
+    font-style: italic;
+    background-color: #17caac;    /* Yellow */
+  }
+  
+  .synopsis em {
+    font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  a:visited {
+    color: purple;
+  }
+  a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+  a:active {
+    color: red;
+  }
+
+  a:visited:hover {
+    color: orange;
+  }
+
